@@ -2,11 +2,11 @@
 
 set -e -x
 
-mkdir -p /go/src/github.com/nbering
+mkdir -p /go/src/github.com/Marudny
 
-ln -s  "$(pwd)/terraform-provider-ansible" "/go/src/github.com/nbering/terraform-provider-ansible"
+ln -s  "$(pwd)/terraform-provider-ansible" "/go/src/github.com/Marudny/terraform-provider-ansible"
 
-pushd /go/src/github.com/nbering/terraform-provider-ansible
+pushd /go/src/github.com/Marudny/terraform-provider-ansible
     ./scripts/build-release.sh
 popd
 

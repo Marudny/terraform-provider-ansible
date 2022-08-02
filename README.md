@@ -19,7 +19,7 @@ providers.tf
 terraform {
   required_providers {
     ansible = {
-      source = "nbering/ansible"
+      source = "Marudny/ansible"
       version = "1.0.4"
     }
   }
@@ -32,10 +32,10 @@ $ terraform init
 Initializing modules...
 Initializing the backend...
 Initializing provider plugins...
-- Finding nbering/ansible versions matching "1.0.4"
+- Finding Marudny/ansible versions matching "1.0.4"
 ...
-- Installing nbering/ansible v1.0.4...
-- Installed nbering/ansible v1.0.4 (self-signed, key ID xxxxxxxxxxxxxx)
+- Installing Marudny/ansible v1.0.4...
+- Installed Marudny/ansible v1.0.4 (self-signed, key ID xxxxxxxxxxxxxx)
 ...
 Terraform has been successfully initialized!
 
@@ -84,8 +84,8 @@ Once you have a working Go installation, you can compile
 `terraform-provider-ansible` by doing the following:
 
 ```shell
-$ go get github.com/nbering/terraform-provider-ansible
-$ cd $GOPATH/src/github.com/nbering/terraform-provider-ansible
+$ go get github.com/Marudny/terraform-provider-ansible
+$ cd $GOPATH/src/github.com/Marudny/terraform-provider-ansible
 $ make
 ```
 
@@ -168,14 +168,14 @@ Contributions specific to this project are made available under the
 Code under the `vendor/` directory is copyright of the various package owners,
 and made available under their own license considerations.
 
-[1]: https://github.com/nbering/terraform-inventory/
+[1]: https://github.com/Marudny/terraform-inventory/
 [2]: https://www.terraform.io/docs/plugins/basics.html#installing-a-plugin
 [3]: http://nicholasbering.ca/tools/2018/01/08/introducing-terraform-provider-ansible/
-[4]: https://github.com/nbering/terraform-provider-ansible/releases
+[4]: https://github.com/Marudny/terraform-provider-ansible/releases
 [5]: https://golang.org/doc/install
 [6]: https://github.com/travis-ci/gimme
-[7]: https://github.com/nbering/terraform-provider-ansible/releases/tag/v1.0.0
+[7]: https://github.com/Marudny/terraform-provider-ansible/releases/tag/v1.0.0
 [8]: https://github.com/hashicorp/terraform/releases/tag/v0.12.0-beta2
-[9]: https://github.com/nbering/terraform-provider-ansible/releases/tag/v0.0.4
+[9]: https://github.com/Marudny/terraform-provider-ansible/releases/tag/v0.0.4
 [10]: https://bazaar.canonical.com/en/
-[11]: https://github.com/nbering/terraform-inventory/releases/tag/v2.0.0
+[11]: https://github.com/Marudny/terraform-inventory/releases/tag/v2.0.0

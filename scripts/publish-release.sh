@@ -16,7 +16,7 @@ then
     exit 1
 fi
 
-GITHUB_USER="${1:-nbering}"
+GITHUB_USER="${1:-Marudny}"
 GITHUB_REPO="${2:-terraform-provider-ansible}"
 RELEASE_ARGS="--user ${GITHUB_USER} --repo ${GITHUB_REPO} --tag ${VERSION}"
 
@@ -24,7 +24,6 @@ github-release release ${RELEASE_ARGS} \
 		--name ${VERSION} \
 		--description ${VERSION}
 
-cd pkg
 for file in \
     $(find . -maxdepth 1 -type f | cut -b 3-)
 do

@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/hashicorp/terraform/plugin"
-	"github.com/nbering/terraform-provider-ansible/ansible"
+	"github.com/Marudny/terraform-provider-ansible/ansible"
 )
 
 func main() {
